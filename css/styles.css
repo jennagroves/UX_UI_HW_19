@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Quicksand:wght@400;500;600&display=swap');
+
+body {
+    background-color: #e2e2e2;
+    margin: 0;
+    font-family: 'Quicksand';
+}
+.headerNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: top;
+    margin: 15px;
+    margin-top: 20px;
+}
+.logo {
+    width: 250px;
+}
+.icon {
+    width: 40px;
+}
+.navIcons {
+    float: right;
+    margin: 15px;
+}
+.icon {
+    padding: 5px;
+}
+.navBar {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: large;
+}
+.currentPage {
+    color: #60933B;
+}
+.pageTitle {
+    text-align: center;
+    background: #60933B;
+    margin-top: 50px;
+    padding: 5px;
+    line-height: .5;
+}
+.breadcrumbs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+.arrow {
+    height: 15px;
+    margin: 5px;
+}
+.currentPage {
+    color: #60933B;
+    font-weight: 600;
+}
+.cards1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 40px;
+}
+.card-image {
+    width: 250px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cards2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 50px;
+}
+footer {
+    background-color: white;
+    overflow: hidden;
+    margin-top: 75px;
+}
+.footerTitle {
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 5px;
+    padding-top: 15px;
+}
+.footerCenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.social-media {
+    margin-left: 60px;
+}
+.social-media-title {
+    font-weight: 600;
+    text-align: center;
+}
+.sm-icon {
+    width: 50px;
+    padding: 5px;
+}
+.email {
+    margin-right: 60px;
+}
+.emailText {
+    line-height: 10px;
+    text-align: center;
+}
+.emailText h4 {
+    font-weight: 500;
+}
+.email-container {
+    background-color: lightgrey;
+    width: 800px;
+    height: 50px;
+    border-radius: 5px;
+}
+button {
+    background-color: #60933B;
+    padding: 15px;
+    float: right;
+    border-radius: 5px;
+}
+.disclaimer {
+    text-align: center;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.left-links {
+    margin-right: 0;
+}
