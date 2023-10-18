@@ -15,6 +15,7 @@ body {
 }
 .logo {
     width: 250px;
+    margin-left: 5px;
 }
 .icon {
     width: 40px;
@@ -46,7 +47,7 @@ li {
 .pageTitle {
     text-align: center;
     background: #60933B;
-    margin-top: 50px;
+    margin-top: 15px;
     padding: 5px;
     line-height: .5;
 }
@@ -70,7 +71,7 @@ li {
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 25px;
 }
 .card-image {
     width: 250px;
@@ -119,6 +120,7 @@ footer {
 .sm-icon {
     width: 50px;
     padding: 5px;
+    cursor: pointer;
 }
 .email {
     margin-right: 60px;
@@ -141,6 +143,7 @@ button {
     padding: 15px;
     float: right;
     border-radius: 5px;
+    cursor: pointer;
 }
 .disclaimer {
     text-align: center;
@@ -153,4 +156,9 @@ button {
 }
 .left-links {
     margin-right: 0;
+    padding: 10px;
+}
+.right-links {
+    margin-left: 0;
+    padding: 10px;
 }
